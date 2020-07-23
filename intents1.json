@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Hello manshu","good morning manshu :*"],
+         "responses": ["Hello raunikaa!", "bolo Raunikaa :* :* :*", "kya hai raunikaa :* :* :*","i am busy rn kya kaam hai?","Good morning raunii :* :* :* ","Good morning raunii :* :* :* "],
+         "context_set": ""
+        },
+		
+		
+        {"tag": "goodbye",
+         "patterns": ["bye tc 143", "bye tc love u ", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["bye tc 143 love u", "bye love u", "bye tc!"],
+         "context_set": ""
+        },
+		
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 21 years old!", "21 years young!"],
+         "context_set": ""
+        },
+		
+		{"tag": "mood",
+         "patterns": ["manshu khush hai?", "Manshu ka mood accha hai"],
+         "responses": ["haa raunii :* :* :* "],
+         "context_set": ""
+        },
+		
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","apka name kya hai"],
+         "responses": ["You can call me Manshu.", "I'm Manshu Lamba!", "I'm manshu."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
